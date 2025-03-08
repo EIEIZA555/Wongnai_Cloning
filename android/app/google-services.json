@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "359467655101",
+    "project_id": "wongnai-4a43f",
+    "storage_bucket": "wongnai-4a43f.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:359467655101:android:376d83d304258f0931fcd4",
+        "android_client_info": {
+          "package_name": "com.example.wongnai"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCx07vm_7l9YKeMArLDrKmkeBLkU6oMG3Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
