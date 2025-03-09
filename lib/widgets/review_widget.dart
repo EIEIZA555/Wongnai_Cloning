@@ -1,4 +1,15 @@
 import 'package:flutter/material.dart';
+import 'package:cloud_firestore/cloud_firestore.dart';
+
+Future<void> saveReview(String user, double rating, String comment) async {
+  await FirebaseFirestore.instance.collection('reviews').add({
+    'user': user,
+    'rating': rating,
+    'comment': comment,
+    'timestamp': FieldValue.serverTimestamp(),
+  });
+}
+
 
 class ReviewWidget extends StatefulWidget {
   final List<Map<String, dynamic>> reviews;
