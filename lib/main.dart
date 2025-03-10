@@ -1,20 +1,9 @@
 import 'package:flutter/material.dart';
-import 'screens/home_screen.dart';
+import '../screens/splash_screen.dart'; // ✅ Import SplashScreen
 
 void main() {
-  runApp(MyApp());
-}
-
-class MyApp extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      title: 'Wongnai Clone',
-      theme: ThemeData(
-        primarySwatch: Colors.orange,
-      ),
-      home: HomeScreen(),
-    );
-  }
+  runApp(MaterialApp(
+    debugShowCheckedModeBanner: false,
+    home: SplashScreen(), // ✅ ใช้ SplashScreen เป็นหน้าแรก
+  ));
 }
