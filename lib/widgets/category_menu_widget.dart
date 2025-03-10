@@ -5,7 +5,7 @@ class CategoryMenuWidget extends StatelessWidget {
   final List<Map<String, dynamic>> categories = [
     {"icon": Icons.restaurant, "label": "ร้านอาหาร"},
     {"icon": Icons.local_cafe, "label": "กาแฟ/ของหวาน"},
-    {"icon": Icons.fastfood, "label": "อาหารจานด่วน"},
+    {"icon": Icons.fastfood, "label": "ร้านอาหารจานด่วน"},
   ];
 
   CategoryMenuWidget({super.key});
