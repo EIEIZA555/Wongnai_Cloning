@@ -26,12 +26,23 @@ class _HomeScreenState extends State<HomeScreen> {
 
   /// ✅ ฟังก์ชันสุ่มร้านแนะนำ 5 ร้าน (ใช้ได้เฉพาะส่วน "ร้านอาหารแนะนำ")
   void getRandomRestaurants() {
-    final random = Random();
-    List<Map<String, dynamic>> shuffled = List.from(allRestaurants)..shuffle(random);
-    setState(() {
-      recommendedRestaurants = shuffled.take(5).toList();
-    });
+  final random = Random();
+  final Set<int> selectedIndexes = {}; // ✅ ใช้ Set เพื่อป้องกันการสุ่มซ้ำ
+  List<Map<String, dynamic>> uniqueRestaurants = [];
+
+  while (uniqueRestaurants.length < 5 && uniqueRestaurants.length < allRestaurants.length) {
+    int randomIndex = random.nextInt(allRestaurants.length);
+
+    if (!selectedIndexes.contains(randomIndex)) {
+      selectedIndexes.add(randomIndex);
+      uniqueRestaurants.add(allRestaurants[randomIndex]);
+    }
   }
+
+  setState(() {
+    recommendedRestaurants = uniqueRestaurants;
+  });
+}
 
   /// ✅ ฟังก์ชันกรองร้านอาหารตามหมวดหมู่ที่เลือก
   List<Map<String, dynamic>> getFilteredRestaurants() {
