@@ -102,4 +102,54 @@ List<Map<String, dynamic>> allRestaurants = [
       "description": "เติมน้ำมันแล้วกระหาย?? ก็มาดื่มซะสิ",
       "menuImages": ["assets/images/amazonmenu1.jpg", "assets/images/amazonmenu2.jpg","assets/images/amazonmenu3.jpg"]
     },
+    {
+      "name": "Cafe Amazaon",
+      "image": "assets/images/amazon.png",
+      "rating": 4.8,
+      "location": "ปั้มปตท. ในโลกแห่งความจริง",
+      "category": "กาแฟ/ของหวาน",
+      "restcategory": "กาแฟ/ของหวาน",
+      "description": "เติมน้ำมันแล้วกระหาย?? ก็มาดื่มซะสิ",
+      "menuImages": ["assets/images/amazonmenu1.jpg", "assets/images/amazonmenu2.jpg","assets/images/amazonmenu3.jpg"]
+    },
+    {
+      "name": "Cafe Amazaon",
+      "image": "assets/images/amazon.png",
+      "rating": 4.8,
+      "location": "ปั้มปตท. ในโลกแห่งความจริง",
+      "category": "กาแฟ/ของหวาน",
+      "restcategory": "กาแฟ/ของหวาน",
+      "description": "เติมน้ำมันแล้วกระหาย?? ก็มาดื่มซะสิ",
+      "menuImages": ["assets/images/amazonmenu1.jpg", "assets/images/amazonmenu2.jpg","assets/images/amazonmenu3.jpg"]
+    },
+    {
+      "name": "Cafe Amazaon",
+      "image": "assets/images/amazon.png",
+      "rating": 4.8,
+      "location": "ปั้มปตท. ในโลกแห่งความจริง",
+      "category": "กาแฟ/ของหวาน",
+      "restcategory": "กาแฟ/ของหวาน",
+      "description": "เติมน้ำมันแล้วกระหาย?? ก็มาดื่มซะสิ",
+      "menuImages": ["assets/images/amazonmenu1.jpg", "assets/images/amazonmenu2.jpg","assets/images/amazonmenu3.jpg"]
+    },
+    {
+      "name": "Cafe Amazaon",
+      "image": "assets/images/amazon.png",
+      "rating": 4.8,
+      "location": "ปั้มปตท. ในโลกแห่งความจริง",
+      "category": "กาแฟ/ของหวาน",
+      "restcategory": "กาแฟ/ของหวาน",
+      "description": "เติมน้ำมันแล้วกระหาย?? ก็มาดื่มซะสิ",
+      "menuImages": ["assets/images/amazonmenu1.jpg", "assets/images/amazonmenu2.jpg","assets/images/amazonmenu3.jpg"]
+    },
+    {
+      "name": "Cafe Amazaon",
+      "image": "assets/images/amazon.png",
+      "rating": 4.8,
+      "location": "ปั้มปตท. ในโลกแห่งความจริง",
+      "category": "กาแฟ/ของหวาน",
+      "restcategory": "กาแฟ/ของหวาน",
+      "description": "เติมน้ำมันแล้วกระหาย?? ก็มาดื่มซะสิ",
+      "menuImages": ["assets/images/amazonmenu1.jpg", "assets/images/amazonmenu2.jpg","assets/images/amazonmenu3.jpg"]
+    },
   ];
